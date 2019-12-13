@@ -309,7 +309,7 @@ export default {
       border: 1px solid black;
       width: 150px;
       float: left;
-      margin-left: -49px;
+      margin-left: -65px;
       border-radius: 0 5px 5px 0;
     }
     .show {

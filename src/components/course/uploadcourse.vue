@@ -13,7 +13,7 @@
         <p class="reupload" v-show="show">重新上传</p>
       </router-link>
     </div>
-    <form action class="form" v-show="show">
+    <form action class="form" v-if="show">
       <div class="headline">
         <label for>
           标题
@@ -35,7 +35,7 @@
       </div>
       <button class="btn" @click="sub">保存信息</button>
     </form>
-    <div class="keep" v-show="!show">
+    <div class="keep" v-if="!show">
       <p class="cycleout">
         <i class="iconfont icon-duihao"></i>
       </p>

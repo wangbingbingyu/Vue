@@ -1,0 +1,25 @@
+header {
+  background-color: #333333;
+}
+header .header-content .logo {
+  padding: 4px 0;
+  width: 140px;
+  float: left;
+}
+header .header-content .header-content-right {
+  padding-right: 10px;
+  line-height: 40px;
+  float: right;
+}
+header .header-content .header-content-right .name {
+  color: white;
+  padding: 0 10px;
+}
+header .header-content .header-content-right i {
+  color: white;
+}
+header .header-content .header-content-right img {
+  vertical-align: middle;
+  width: 30px;
+  border-radius: 50%;
+}
